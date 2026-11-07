@@ -8,7 +8,7 @@
   --esp: #1c120d;
   --paper: #fbf5ea;
   --cream: #efe0c8;
-  --terra: #d6502a;
+  --terra: #e8703a;
   --mostarda: #f0b429;
   --oliva: #4f5d2f;
   --caramelo: #8b4a2b;
@@ -96,11 +96,11 @@ img {
   background: var(--terra);
   color: var(--paper);
   font-size: 16px;
-  box-shadow: 0 12px 24px rgba(214, 80, 42, 0.35);
+  box-shadow: 0 12px 24px rgba(232, 112, 58, 0.35);
 }
 
 .btn--terra:hover {
-  box-shadow: 0 16px 30px rgba(214, 80, 42, 0.45);
+  box-shadow: 0 16px 30px rgba(232, 112, 58, 0.45);
 }
 
 .btn--grande {
@@ -620,7 +620,7 @@ img {
 }
 
 /* --- Itália --- */
-.tile--italia { --bg: var(--terra); }
+.tile--italia { --bg: #d6502a; } /* mantém o laranja original, igual ao fundo da foto */
 .tile--italia .tile__foto { width: 121px; height: 142px; border-radius: 69.5px; }
 .tile--italia .tile__nome { max-width: 100%; }
 .tile--italia .tile__prep { font-size: 15px; line-height: 20px; }
